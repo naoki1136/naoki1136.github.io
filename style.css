@@ -94,3 +94,9 @@ footer {
     gap: 12px;
   }
 }
+
+/* キーボード操作で選択中のリンクを明示 */
+a:focus-visible {
+  outline: 2px solid #315a9b;
+  outline-offset: 3px;
+}
